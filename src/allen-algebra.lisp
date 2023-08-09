@@ -5,7 +5,7 @@
 ;; Licensed under the Gnu Public License Version 3 or later
 
 
-(in-package :allen-algebra)
+(in-package #:allen-algebra)
 
 (defparameter *transitive-table* 
 	(make-array '(12 12) 
