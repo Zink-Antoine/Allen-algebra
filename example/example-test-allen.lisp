@@ -1,5 +1,8 @@
 (defun example ();;example Allen'paper 83
-	(load "test-allen.lisp)"
+	(ql:quickload "allen-algebra")
+	(use-package :allen-algebra)
+
+	(in-package :allen-algebra)
 
 	(defparameter *ToDo* (make-hash-table :test 'equal)) 	
 
