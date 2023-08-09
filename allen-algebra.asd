@@ -3,8 +3,8 @@
 
 (asdf:defsystem "allen-algebra"
   :version "0.1.0"
-  :author "Antoine Zink <antoine.zink@culture.gouv.fr>"
-  :license  "GPL V3"
+  :author "Antoine Zink <antoine.zink@culture.gouv.fr> ORCID = https://orcid.org/0000-0001-7146-1101"
+  :license  "CeCILL-2 | file LICENSE"
   :depends-on (#:graph
                #:graph/matrix
                #:graph/dot)
@@ -17,7 +17,7 @@
 
 (defsystem "allen-algebra/tests"
   :author "Antoine Zink <antoine.zink@culture.gouv.fr>"
-  :license  "GPL V3"
+  :license  "CeCILL-2 | file LICENSE"
   :depends-on ("allen-algebra"
                "rove")
   :components ((:module "tests"
