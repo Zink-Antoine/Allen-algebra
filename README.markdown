@@ -4,7 +4,7 @@ a small implementation of Allen's (1983) time interval algebra in LISP
 
 ## Usage
 
-*Function* temporal-network  
+Function *temporal-network*  
 
 Syntax  
 (temporal-network '((node1) (node2)) '(rel1 rel2 ...))  
@@ -12,7 +12,7 @@ Syntax
 Description  
 create a new temporal network or add new temporal relations between two nodes
 
-*Function* update-temporal-network  
+Function *update-temporal-network*  
 
 Syntax  
 (update-temporal-network '((node1) (node2)) '(rel1 rel2 ...))  
@@ -20,7 +20,7 @@ Syntax
 Description  
 add new temporal relations between two nodes and up date the temporal network 
 
-*function* pretty-hash-table  
+function *pretty-hash-table*  
 
 Syntax  
 (pretty-hash-table \*hash-table\*)  
